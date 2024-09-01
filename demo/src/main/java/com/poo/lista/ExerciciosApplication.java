@@ -3,12 +3,21 @@ package com.poo.lista;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-
-import com.poo.lista.lista2.Exercicio1;
-import com.poo.lista.lista2.Exercicio2;
-import com.poo.lista.lista2.Exercicio3;
-import com.poo.lista.lista2.Exercicio4;
-import com.poo.lista.lista2.Exercicio5;
+//import com.poo.lista.lista1.Exercicio1;
+//import com.poo.lista.lista1.Exercicio2;
+//import com.poo.lista.lista1.Exercicio3;
+//import com.poo.lista.lista1.Exercicio4;
+//import com.poo.lista.lista1.Exercicio5;
+//import com.poo.lista.lista1.Exercicio6;
+//import com.poo.lista.lista1.Exercicio7;
+//import com.poo.lista.lista1.Exercicio8;
+//import com.poo.lista.lista2.Exercicio1;
+//import com.poo.lista.lista2.Exercicio2;
+//import com.poo.lista.lista2.Exercicio3;
+//import com.poo.lista.lista2.Exercicio4;
+//import com.poo.lista.lista2.Exercicio5;
+//import com.poo.lista.lista2.Exercicio6;
+//import com.poo.lista.lista2.Exercicio7;
 
 @SpringBootApplication
 public class ExerciciosApplication {
@@ -16,7 +25,7 @@ public class ExerciciosApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(ExerciciosApplication.class, args);
 
-		Exercicio5.resolucao2();
+		Exercicio7.resolucao2();
 
 	}
 

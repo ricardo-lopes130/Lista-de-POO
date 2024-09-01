@@ -15,6 +15,24 @@ public class Exercicio6 {
          System.out.println("Nota 2: ");
          double nota2 = sc.nextDouble();
 
+         double media = (nota1+nota2)/2;
+         if(media >= 6){
+            System.out.println("Aprovado!!!");
+         }
+         else{
+            System.out.println("Recuperação.");
+            double menorNota = (nota1<nota2)? nota1:nota2;
+            System.out.println("Insira a nota da recuperação: ");
+            double recuperacao = sc.nextDouble();
+            double mediaRecuperacao = (recuperacao + Math.max(nota1,nota2)/2);
+            if(mediaRecuperacao>=6){
+                System.out.println("Aprovado!");
+            }
+            else{
+                System.out.println("Reprovado.");
+            }
+         }
+
     sc.close();
     }     
 
