@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Exercicio5 {
     public static void resolucao(){
+        //Código de resolução: Exercicio5.resolucao();
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Digite o comprimento do terreno: ");

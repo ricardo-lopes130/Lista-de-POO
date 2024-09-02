@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Exercicio1 {
     public static void resolucao(){
+        //Código de resolução: Exercicio1.resolucao();
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Digite 2 numeros: ");
@@ -19,9 +20,5 @@ public class Exercicio1 {
         sc.close();
     }
 
-    public static void resolucao2() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'resolucao2'");
-    }
 
 }

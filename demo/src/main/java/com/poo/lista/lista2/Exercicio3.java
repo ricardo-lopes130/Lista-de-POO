@@ -3,7 +3,8 @@ package com.poo.lista.lista2;
 import java.util.Scanner;
 
 public class Exercicio3 {
-    public static void resolucao2() {
+    public static void resolucao2(){
+      //Código de resolução: Exercicio3.resolucao2();
          Scanner sc = new Scanner(System.in);
          String condicao,nome;
          int idade;

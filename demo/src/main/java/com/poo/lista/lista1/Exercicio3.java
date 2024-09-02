@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Exercicio3 {
     public static void resolucao(){
+        //Código de resolução: Exercicio3.resolucao();
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Digite o valor em reais: ");

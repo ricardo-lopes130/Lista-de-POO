@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Exercicio8 {
     public static void resolucao(){
+        //Código de resolução: Exercicio8.resolucao();
         Scanner sc = new Scanner(System.in);
 
         double celsius;

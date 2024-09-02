@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Exercicio6 {
     public static void resolucao(){
+        //Código de resolução: Exercicio6.resolucao();
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Digite a distância em km: ");
