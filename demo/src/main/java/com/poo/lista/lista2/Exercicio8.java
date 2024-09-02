@@ -5,6 +5,7 @@ import java.util.concurrent.TimeUnit;
 
 public class Exercicio8 {
         public static void resolucao2() throws InterruptedException{
+            //Código de resolução:Exercicio8.resolucao2();
             Scanner sc = new Scanner(System.in);
 
             int tentativa = 0;
@@ -37,8 +38,7 @@ public class Exercicio8 {
                 System.out.println(perguntas[i][4]); 
                 
                 System.out.print("Digite sua resposta: ");
-                 resposta = sc.nextLine();
-
+                resposta = sc.nextLine();
                 if(resposta.equalsIgnoreCase(perguntas[i][5])){
                     acertos++;
                     System.out.println("Você acertou!!!");
@@ -49,25 +49,18 @@ public class Exercicio8 {
                     System.out.println("Que pena! Você errou.");
                     TimeUnit.SECONDS.sleep(3);
                 }
-
                 if(erros==3){
                     System.out.println("Você errou 3 vezes, GAME OVER.");
                     break;
                 }
                 
-
                 if(erros<3){
                     System.out.println("Você tem "+acertos+" acertos.");
                 }
                 
                 
-
-
-
-
-            
-
-           
-        }    
+        }  
+        
+        sc.close();
     }
 }

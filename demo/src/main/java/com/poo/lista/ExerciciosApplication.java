@@ -3,6 +3,7 @@ package com.poo.lista;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+//PARA LIBERAR O CÓDIGO RETIRE AS "//" DO "IMPORT" DO EXERCÍCIO.
 //import com.poo.lista.lista1.Exercicio1;
 //import com.poo.lista.lista1.Exercicio2;
 //import com.poo.lista.lista1.Exercicio3;
