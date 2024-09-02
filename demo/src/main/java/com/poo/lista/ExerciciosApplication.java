@@ -18,14 +18,15 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 //import com.poo.lista.lista2.Exercicio5;
 //import com.poo.lista.lista2.Exercicio6;
 //import com.poo.lista.lista2.Exercicio7;
-
+import com.poo.lista.lista2.Exercicio8;
 @SpringBootApplication
 public class ExerciciosApplication {
 
-	public static void main(String[] args) {
+	public static void main(String[] args)throws InterruptedException {
 		SpringApplication.run(ExerciciosApplication.class, args);
 
 		//Insira aqui o código de resolução do exercício:
+		Exercicio8.resolucao2();
 
 
 	}
