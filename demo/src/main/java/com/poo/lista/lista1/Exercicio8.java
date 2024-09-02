@@ -16,6 +16,6 @@ public class Exercicio8 {
         fahrenheint = celsius * 1.8 + 32;
         System.out.printf("Em Farenheint: %.2f ", fahrenheint);
 
-        sc.close();
+    sc.close();
     }
 }

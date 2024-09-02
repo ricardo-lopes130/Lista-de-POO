@@ -12,7 +12,6 @@ public class Exercicio4 {
 
         System.out.println("O antecessor é "+(numero-1)+" e o seu sucessor é "+(numero+1));
         
-        sc.close();
+    sc.close();
     }
-
 }

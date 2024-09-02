@@ -3,7 +3,7 @@ package com.poo.lista.lista2;
 import java.util.Scanner;
 
 public class Exercicio5 {
-    public static void resolucao2(){
+   public static void resolucao2(){
       //Código de resolução: Exercicio5.resolucao2();
          Scanner sc = new Scanner(System.in);
          String login ="Ricardo123";
@@ -27,7 +27,7 @@ public class Exercicio5 {
             System.out.println("Bem vindo ao sistema!");
          }
          
-    sc.close();    
-    }
+   sc.close();    
+   }
 
 }

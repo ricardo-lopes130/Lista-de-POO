@@ -3,7 +3,7 @@ package com.poo.lista.lista2;
 import java.util.Scanner;
 
 public class Exercicio2 {
-    public static void resolucao2(){
+   public static void resolucao2(){
       //Código de resolução: Exercicio2.resolucao2();
          Scanner sc = new Scanner(System.in);
          double numero1, numero2;
@@ -21,9 +21,7 @@ public class Exercicio2 {
          }
          else{
             System.out.println("Número 1 igual a número 2");
-         }
-        
-        sc.close(); 
-    }
-
+         } 
+   sc.close(); 
+   }
 }

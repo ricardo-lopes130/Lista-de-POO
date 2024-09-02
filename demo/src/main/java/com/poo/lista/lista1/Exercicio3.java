@@ -16,7 +16,6 @@ public class Exercicio3 {
 
         System.out.println("O valor em dolar é $" + dolar);
 
-        sc.close();
-    }       
-
+    sc.close();
+    }
 }

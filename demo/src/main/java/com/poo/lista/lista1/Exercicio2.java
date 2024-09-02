@@ -15,8 +15,6 @@ public class Exercicio2 {
 
         System.out.println("Olá, "+ n1  + " " + n2);
 
-        sc.close();
+    sc.close();
     }
-
-
 }

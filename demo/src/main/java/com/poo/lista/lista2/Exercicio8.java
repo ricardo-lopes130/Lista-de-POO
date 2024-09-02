@@ -56,11 +56,8 @@ public class Exercicio8 {
                 
                 if(erros<3){
                     System.out.println("Você tem "+acertos+" acertos.");
-                }
-                
-                
+                }     
         }  
-        
-        sc.close();
+    sc.close();
     }
 }

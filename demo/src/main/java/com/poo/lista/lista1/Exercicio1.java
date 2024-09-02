@@ -16,9 +16,6 @@ public class Exercicio1 {
 
         System.out.println("A soma é: "+ soma);
 
-
-        sc.close();
+    sc.close();
     }
-
-
 }

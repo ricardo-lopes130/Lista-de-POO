@@ -3,13 +3,12 @@ package com.poo.lista.lista2;
 import java.util.Scanner;
 
 public class Exercicio7 {
-    public static void resolucao2(){
+   public static void resolucao2(){
       //Código de resolução: Exercicio7.resolucao2();
          Scanner sc = new Scanner(System.in);
 
          System.out.println("Digite um número: ");
          double numero1 = sc.nextInt();
-
          System.out.println("Digite outro número: ");
          double numero2 = sc.nextInt();
 
@@ -22,8 +21,7 @@ public class Exercicio7 {
          else{
             System.out.println("Números informados não são divisiveis.");
          }
-
-    sc.close();
-    }
-    
+         
+   sc.close(); 
+   }
 }

@@ -27,7 +27,7 @@ public class Exercicio7 {
 
         System.out.println("A média do aluno "+nome+" é: "+ media);
 
-        sc.close();
+    sc.close();
     }
 
 }

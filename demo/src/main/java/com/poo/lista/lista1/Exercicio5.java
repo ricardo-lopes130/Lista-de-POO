@@ -21,6 +21,6 @@ public class Exercicio5 {
 
         System.out.println("O valor do terreno é: R$"+valor*area);
 
-        sc.close();
+    sc.close();
     }
 }

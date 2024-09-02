@@ -15,7 +15,6 @@ public class Exercicio6 {
 
         System.out.println("O consumo médio do veículo em km/l foi de: "+(distancia/gasto));
         
-        sc.close();
-    }
-    
+    sc.close();
+    }  
 }
