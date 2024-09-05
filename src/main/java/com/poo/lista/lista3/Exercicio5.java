@@ -12,13 +12,71 @@ public class Exercicio5 {
     public static void resolucao3() {
         //Código de resolução:Exercicio4.resolucao3();
         Scanner sc = new Scanner(System.in);
+        String usuario = "adm";
+        String senha = "adm";
+        String U = " ";
+        String S = " ";
+        int tentativa = 3;
 
-        System.out.println("Login: ");
-        String login = sc.nextLine();
 
-        
+        while (tentativa >=1 ) {
+            System.out.println("Login: ");
+        U = sc.nextLine();
 
+        System.out.println("Senha: ");
+        S = sc.nextLine();
 
+        if(usuario.equals(U)&&senha.equals(S)){
+            System.out.println("LOGIN CORRETO.");
+            sc.close();
+            return;
+        }
+        else if(!usuario.equals(U)&&senha.equals(S)){
+            System.out.println("LOGIN INCORRETO.");
+            tentativa--;
+            if(tentativa>1){
+                System.out.println("Você tem "+tentativa+" tentativas.");
+            }
+            else if(tentativa==1){
+                System.out.println("Última tentativa, mais um erro seu acesso será bloqueado!");
+            }
+        }
+        else if(usuario.equals(U)&&!senha.equals(S)){
+            System.out.println("SENHA INCORRETA.");
+            tentativa--;
+            if(tentativa>1){
+                System.out.println("Você tem "+tentativa+" tentativas.");
+            }
+            else if(tentativa==1){
+                System.out.println("Última tentativa, mais um erro seu acesso será bloqueado!");
+            }
+        }
+        else if(usuario.equals(U)&&!senha.equals(S)){
+        System.out.println("SENHA INCORRETA.");
+        tentativa--;
+        if(tentativa>1){
+            System.out.println("Você tem "+tentativa+" tentativas.");
+        }
+        else if(tentativa==1){
+            System.out.println("Última tentativa, mais um erro seu acesso será bloqueado!");
+        }
+    }
+    else if(!usuario.equals(U)&&!senha.equals(S)){
+        System.out.println("SENHA E USUARIO INCORRETOS.");
+        tentativa--;
+        if(tentativa>1){
+            System.out.println("Você tem "+tentativa+" tentativas.");
+        }
+        else if(tentativa==1){
+            System.out.println("Última tentativa, mais um erro seu acesso será bloqueado!");
+        }
+    }
+    if(tentativa==0){
+        System.out.println("USUARIO BLOQUEADO.");
+        sc.close();
+        return;
+    }
+} 
     sc.close();    
     }
 }
