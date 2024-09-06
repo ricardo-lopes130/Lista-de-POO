@@ -6,7 +6,7 @@ import java.util.Scanner;
         construir um retângulo. O usuário deve informar a largura e a altura em
         asteriscos*/
 public class Exercicio7 {
-    public static void resolucao4() {
+    public static void resolucao3() {
         //Código de resolução:Exercicio7.resolucao3();
         Scanner sc = new Scanner(System.in);
         int altura;
@@ -20,7 +20,6 @@ public class Exercicio7 {
         Retangulo(altura, largura);
         sc.close();
     }
-
     public static void Retangulo(int altura, int largura ){
         for (int i = 1 ; i <= altura; i++){
             for (int j = 1; j <= largura; j++){
