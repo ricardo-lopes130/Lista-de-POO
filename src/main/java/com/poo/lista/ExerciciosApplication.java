@@ -5,6 +5,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import com.poo.lista.lista4.Exercicio1;
 import com.poo.lista.lista4.Exercicio2;
+import com.poo.lista.lista4.Exercicio3;
+import com.poo.lista.lista4.Exercicio4;
 
 //PARA LIBERAR O CÓDIGO RETIRE AS "//" DO "IMPORT" DO EXERCÍCIO.
 //import com.poo.lista.lista1.Exercicio1;
@@ -38,7 +40,7 @@ public class ExerciciosApplication {
 		SpringApplication.run(ExerciciosApplication.class, args);
 
 		//Insira aqui o código de resolução do exercício:
-		Exercicio2.resolucao4();
+		Exercicio4.resolucao4();
 
 	}
 }

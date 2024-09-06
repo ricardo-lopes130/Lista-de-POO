@@ -12,14 +12,12 @@ public class Exercicio1 {
         Scanner sc = new Scanner(System.in);
 
         double valorVendas[]={10.00,22.00,12.00,6.00};
+        double soma = 0;
 
         for (int i = 0; i < valorVendas.length; i++) {
-            double soma = valorVendas[0]+valorVendas[1]+valorVendas[2]+valorVendas[3];
-            System.out.printf("Fechamento das vendas do dia: R$%.2f",soma);
-            break;
+            soma+=valorVendas[i];
         }
+        System.out.printf("Fechamento das vendas do dia: R$%.2f%n",soma);
     sc.close();    
     }
-
-
 }
