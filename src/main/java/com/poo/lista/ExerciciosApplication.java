@@ -3,7 +3,7 @@ package com.poo.lista;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-import com.poo.lista.lista3.Exercicio5;
+
 
 
 
@@ -29,7 +29,9 @@ import com.poo.lista.lista3.Exercicio5;
 //import com.poo.lista.lista3.Exercicio2;
 //import com.poo.lista.lista3.Exercicio3;
 //import com.poo.lista.lista3.Exercicio4;
-
+//import com.poo.lista.lista3.Exercicio5;
+//import com.poo.lista.lista3.Exercicio6;
+//import com.poo.lista.lista3.Exercicio7;
 
 @SpringBootApplication
 public class ExerciciosApplication {
@@ -38,7 +40,7 @@ public class ExerciciosApplication {
 		SpringApplication.run(ExerciciosApplication.class, args);
 
 		//Insira aqui o código de resolução do exercício:
-		Exercicio5.resolucao3();
+		
 
 	}
 }
