@@ -3,7 +3,7 @@ package com.poo.lista;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-import com.poo.lista.lista4.Exercicio7;
+
 
 
 //PARA LIBERAR O CÓDIGO RETIRE AS "//" DO "IMPORT" DO EXERCÍCIO.
@@ -37,7 +37,8 @@ import com.poo.lista.lista4.Exercicio7;
 //import com.poo.lista.lista4.Exercicio5;
 //import com.poo.lista.lista1.Exercicio7;
 //import com.poo.lista.lista4.Exercicio6;
-
+//import com.poo.lista.lista4.Exercicio7;
+//import com.poo.lista.lista4.Exercicio8;
 
 @SpringBootApplication
 public class ExerciciosApplication {
@@ -46,7 +47,7 @@ public class ExerciciosApplication {
 		SpringApplication.run(ExerciciosApplication.class, args);
 
 		//Insira aqui o código de resolução do exercício:
-		Exercicio7.resolucao4();
+		Exercicio.resolucao4();
 
 	}
 }

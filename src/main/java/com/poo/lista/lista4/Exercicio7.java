@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Exercicio7 {
-
     public static void resolucao4()throws InterruptedException {
         
     ArrayList<String> listaProdutos = new ArrayList<>();
@@ -26,9 +25,8 @@ public class Exercicio7 {
     opcao = scanner.nextInt();
             scanner.nextLine(); 
 
-             switch (opcao) {
+            switch (opcao) {
                 case 1:
-                   
                     System.out.print("Digite o nome do item:");
                     String item = scanner.nextLine();
                     System.out.print("Digite o preço do item:");
