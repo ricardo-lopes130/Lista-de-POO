@@ -5,8 +5,7 @@ import java.util.ArrayList;
 
 /*5)Escreva um programa que sirva como uma lista de compras de 
 mercado. Você irá criar um menu que pergunte se o usuário quer inserir 
-um item ou ver a lista
- */
+um item ou ver a lista*/
 
 public class Exercicio5 {
     public static void resolucao4(){
@@ -18,8 +17,8 @@ public class Exercicio5 {
 
         while(true){
             System.out.println("**********MENU DE COMPRAS**********");
-            System.out.println("1)INSIRA UM ITEM        2)VER LISTA");
-            System.out.println("                 3)SAIR            ");
+            System.out.println("1)INSERIR ITEM          2)VER LISTA");
+            System.out.println("                3)SAIR             ");
             System.out.println("           Escolha uma opção:      ");
             opcao = sc.nextInt();
             sc.nextLine();
@@ -43,7 +42,7 @@ public class Exercicio5 {
                     return;
 
                 default:
-                System.out.println("Opção inválida.Digite uma opção válida.");
+                System.out.println("Opção inválida. Digite uma opção válida.");
                     break;
                 }
             }
