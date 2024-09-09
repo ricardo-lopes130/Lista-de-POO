@@ -2,6 +2,9 @@ package com.poo.lista.lista1;
 
 import java.util.Scanner;
 
+/*5) Construa um algoritmo que calcule o valor de um terreno
+baseado na sua área e valor por m2.*/
+
 public class Exercicio5 {
     public static void resolucao(){
         //Código de resolução: Exercicio5.resolucao();

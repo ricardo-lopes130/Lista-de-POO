@@ -2,6 +2,10 @@ package com.poo.lista.lista1;
 
 import java.util.Scanner;
 
+/*8) Suponha que voce trabalhe em um laboratório e seu
+colega mediu a temperatura de um objeto em Fahrenheit.
+Escreva um programa capaz de converter em Celsius.*/
+
 public class Exercicio8 {
     public static void resolucao(){
         //Código de resolução: Exercicio8.resolucao();

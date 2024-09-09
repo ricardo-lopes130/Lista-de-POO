@@ -2,6 +2,9 @@ package com.poo.lista.lista1;
 
 import java.util.Scanner;
 
+/*3) Escreva uma calculadora que receba um valor em reais e
+converta para dólar. Considere o valor do dólar a R$5,25.*/
+
 public class Exercicio3 {
     public static void resolucao(){
         //Código de resolução: Exercicio3.resolucao();

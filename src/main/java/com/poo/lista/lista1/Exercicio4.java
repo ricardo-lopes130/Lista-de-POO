@@ -2,6 +2,9 @@ package com.poo.lista.lista1;
 
 import java.util.Scanner;
 
+/*4) Construa um algoritmo que leia um número inteiro na tela e
+responda o número antecessor e o sucessor.*/
+
 public class Exercicio4 {
     public static void resolucao(){
         //Código de resolução: Exercicio4.resolucao();

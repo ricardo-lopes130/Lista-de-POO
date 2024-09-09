@@ -2,6 +2,9 @@ package com.poo.lista.lista1;
 
 import java.util.Scanner;
 
+/*7) Escreva um programa que receba quatro notas de um
+aluno e calcule a média aritmética dessas notas.*/
+
 public class Exercicio7 {
     public static void resolucao(){
         //Código de resolução: Exercicio7.resolucao();

@@ -2,6 +2,12 @@ package com.poo.lista.lista1;
 
 import java.util.Scanner;
 
+/*6) Construa um algoritmo que leia 1- a distância percorrida
+por um veículo em km 2- o total gasto em combustível em
+litros. No final deverá ser respondido o consumo médio deste
+veículo em km/l.*/
+
+
 public class Exercicio6 {
     public static void resolucao(){
         //Código de resolução: Exercicio6.resolucao();
