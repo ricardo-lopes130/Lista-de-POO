@@ -2,6 +2,9 @@ package com.poo.lista.lista2;
 
 import java.util.Scanner;
 
+/*2) Desenvolva um algoritmo que seja capaz de receber dois números digitados
+pelo usuário e diga qual deles é maior.*/
+
 public class Exercicio2 {
    public static void resolucao2(){
       //Código de resolução: Exercicio2.resolucao2();

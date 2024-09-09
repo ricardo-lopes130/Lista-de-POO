@@ -2,6 +2,10 @@ package com.poo.lista.lista2;
 
 import java.util.Scanner;
 
+/*5) Crie um algoritmo que receba login e senha e verifique as credenciais. Caso
+algum deles estiver errado o programa deve retornar ao usuário quais das opções
+está errada, se é o login ou a senha.*/
+
 public class Exercicio5 {
    public static void resolucao2(){
       //Código de resolução: Exercicio5.resolucao2();

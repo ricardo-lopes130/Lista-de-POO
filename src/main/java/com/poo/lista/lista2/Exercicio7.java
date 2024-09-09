@@ -2,6 +2,10 @@ package com.poo.lista.lista2;
 
 import java.util.Scanner;
 
+/*7) Escreva um programa Identificador de Divisibilidade, isto é, que identifique se
+um determinado número informado pelo usuário é divisível por X (Que também
+deve ser informado pelo usuário)*/
+
 public class Exercicio7 {
    public static void resolucao2(){
       //Código de resolução: Exercicio7.resolucao2();

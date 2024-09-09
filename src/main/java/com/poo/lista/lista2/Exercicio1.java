@@ -2,6 +2,9 @@ package com.poo.lista.lista2;
 
 import java.util.Scanner;
 
+/*1) Escreva um programa que recebe um número digitado pelo usuário e responda
+se o número inserido é par ou ímpar ou 0.*/
+
 public class Exercicio1 {
     public static void resolucao2(){
         //Código de resolução: Exercicio1.resolucao2();
